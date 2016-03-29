@@ -1,0 +1,25 @@
+{
+  "name": "woo-hue",
+  "version": "1.0.0",
+  "description": "Control your lights with WooCommerce.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryce Adams",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bryceadams/woo-drone.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.1",
+    "body-parser": "^1.14.2",
+    "crypto": "0.0.3",
+    "dateformat": "^1.0.12",
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "node-hue-api": "^2.2.0",
+    "woocommerce-api": "^1.0.4"
+  }
+}
